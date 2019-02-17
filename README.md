@@ -1,4 +1,4 @@
-# IVC KOLPAK - smart CCTV system powered by Telegram
+# IVC KOLPAK - smart CCTV system powered with Telegram
 ## WARNING !
 This is template article. More information about the system will be soon.
 For any questions please ask in Telegram channel `@ivckolpak`
