@@ -3,11 +3,11 @@
 This is template article. More information about the system and source codes to build from the scratch will be soon.
 For any questions please ask in Telegram channel `@ivckolpak`
 ## Overview
-IVC KOLPAK is DIY smart CCTV system that alarms into Telegram if motion is detected in the camera area. It provides intelligent video control of the object, because only pictures (and video clips as 'gif' animated media) of motion object passes into Telegram chat, group or channel. This gives feature to reduce human attention for CCTV system and provides Internet traffic economy. It comprises the principles of simplicity and convenience, and low cost of ownership. It's best for far objects with rare motion events where only available 3G/4G Internet connection.
+IVC KOLPAK is DIY smart CCTV system that alerts into Telegram if motion is detected in the camera area. It provides intelligent video control of the object, because only pictures (and video clips as 'gif' animated media) of motion object passes into Telegram chat, group or channel. This gives feature to reduce human attention for CCTV system and provides Internet traffic economy. It comprises the principles of simplicity and convenience, and low cost of ownership. It's best for far objects with rare motion events where only available 3G/4G Internet connection.
 ## Support
 Telegram channel `@ivckolpak` is provided for info and questions
 ## Features
-* CCTV with motion detection and alarms into Telegram
+* CCTV with motion detection and alerts into Telegram
 * Filtered content from CCTV. No need to revise recordings and archive - all information in the smartphone or PC
 * Text, photo and video (animations) with motion object into Telegram chat, group or channel available 24/7
 * WiFi hotspot service (used internal 3G/4G modem for Internet access)
