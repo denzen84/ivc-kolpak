@@ -14,7 +14,7 @@ Telegram channel `@ivckolpak` is provided for info and questions
 * Automatic enable/disable CCTV when trusted device connected to WiFi hospot
 * Periodical system reports about uptime, system life parameters, connected devices and other
 * 2 week (or more) archive on SD card for archive purposes
-## Advantages
+## Why Telegram?
 Using Telegram service providing following advantages, dramatically simplifies the device and reduces costs:
 * Cloud storage for photos and videos in the chats, groups or channels. All information from the device will be kept in the Telegram's cloud. No need to make your own infrastructure or use other paid service.
 * Access to Telegram from any device and platform even at the same time
