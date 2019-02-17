@@ -26,7 +26,7 @@ Using Telegram service providing following advantages, dramatically simplifies t
 * enhanced sender telegram bot ([external link](https://github.com/denzen84/sstgb))
 * Tor (option) ([external link](https://www.torproject.org/))
 * several scrips
-###### Hardware video compression acceleration (cedrus264)
+###### Hardware video acceleration (cedrus264)
 Available, tested, but does not make sense in practice...
 ## Hardware
 Hardware part consists of:
