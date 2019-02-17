@@ -19,6 +19,7 @@ Using Telegram service providing following advantages, dramatically simplifies t
 * Cloud storage for photos and videos in the chats, groups or channels. All information from the device will be kept in the Telegram's cloud. No need to make your own infrastructure or use other paid service.
 * Access to Telegram from any device and platform even at the same time
 * Simply to share photo and videos from the camera
+* Only Telegram has an open API and protocol free for everyone
 ## Software
 * Armbian ([external link](https://www.armbian.com/))
 * motion ([external link](https://motion-project.github.io/))
