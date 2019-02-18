@@ -14,21 +14,26 @@ Telegram channel `@ivckolpak` is provided for info and questions
 * Automatic enable/disable CCTV when trusted device connected to WiFi hospot
 * Periodical system reports about uptime, system life parameters, connected devices and other
 * 2 week (or more) archive on SD card for archive purposes
+###### Technical features
+* Using _motion 4.2+_ feature _movie_passtrough_ allows to convert from mpeg to h264 videos direct from camera's stream. In case of use h264-camera no recompression needed.
+* Ramdisk improves SD-card lifecycle
+* Photos can be send as originals or as media groups.
+* _estgb_ can process escape sequences to insert emoji in the text.
+* _telebot_ library linked dynamically with _estgb_. Multiple instances of _estgb_ used less RAM.
+* Expremental use of cedrus264 codec for hardware accelerated video encoding (with legacy kernel only).
 ## Why Telegram?
 Using Telegram service providing following advantages, dramatically simplifies the device and reduces costs:
 * Cloud storage for photos and videos in the chats, groups or channels. All information from the device will be kept in the Telegram's cloud. No need to make your own infrastructure or use other paid service.
 * Access to Telegram from any device and platform even at the same time
 * Simply to share photo and videos from the camera
-* Only Telegram has an open API and protocol free for everyone
+* Telegram has an open API and protocol free for everyone (hey, Whatsapp and Viber!)
 ## Software
 * Armbian ([external link](https://www.armbian.com/))
 * motion ([external link](https://motion-project.github.io/))
 * ffmpeg ([external link](https://ffmpeg.org/))
 * enhanced sender telegram bot ([external link](https://github.com/denzen84/sstgb))
-* Tor (option) ([external link](https://www.torproject.org/))
-* several scrips
-###### Hardware video acceleration (cedrus264)
-Available, tested, but does not make sense in practice...
+* Tor (optional) ([external link](https://www.torproject.org/))
+* several bash scrips: system report, archive cleanup, watchdog, on/off camera on trusted WiFi client, etc...
 ## Hardware
 Hardware part consists of:
 * Orange Pi board
