@@ -70,3 +70,27 @@ Hardware part consists of:
 | 9 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
 | 10 | Junction box | 1 | - | Local shop |
 ## Building from the scratch
+###### Step 1. Install OS and software
+1. Download, burn, install Armbian according to [installation guide for Armbian](https://docs.armbian.com/User-Guide_Getting-Started/)
+2. Build and install motion 4.2+ according to [abbreviated building guide](https://motion-project.github.io/motion_build.html)
+4. Install from repository `ImageMagick`: `sudo apt-get install imagemagick`
+5. Install from repository `libjson-c3`: `sudo apt-get install libjson-c3`
+6. Install from repository `usb-modeswitch`: `sudo apt-get install usb-modeswitch`
+7. Extract `ivc-kolpak` package from this repository into `/etc/ivc-kolpak`
+8. (Optional) Install from repository `tor`: `sudo apt-get install tor`
+###### Step 2. Create Telegram bot
+1. Create your own telegram bot using `@BotFather` bot according to the [official guide](https://core.telegram.org/bots#6-botfather). Get `bot token`. 
+2. Create 3 channels (or groups): Photo, Video and System. Get `id` for each channel (or group) using `@getidsbot`.
+###### Step 3. Configuring system
+1. __Create ramdisk__
+     - Add into file `/etc/fstab` following line: `ramdisk /mnt/ramdisk tmpfs rw,size=256M 0 0`
+2. __Create WiFi hotspot__
+     - Use `armbian-config` utility to make WiFi hotspot
+3. __Configure ImageMagick__
+     - In the file `/etc/ImageMagick-6/policy.xml` find line `policy domain="path" rights="none" pattern="@*"/` and comment it like `<!-- policy domain="path" rights="none" pattern="@*"/ -->`
+4. __Configure telegram bot__. 
+     - Write `bot token` of your bot into files `.token` in paths `/etc/ivc-kolpak/channels/photo/`, `/etc/ivc-kolpak/channels/video/`, `/etc/ivc-kolpak/channels/system/`
+     - Write `id` for each channel (or group) into files `.userid` in the same way as bot token.
+5. __Copy symlinks__
+     - `under construction`
+6. __Does anyone want to create installation script?__
