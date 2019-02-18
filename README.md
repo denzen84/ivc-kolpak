@@ -53,8 +53,9 @@ Hardware part consists of:
 | 5 | Power supply 5V/2A | 1 | US $1.61 | [AliExpress](https://ru.aliexpress.com/item/AC-100-265-V-DC-5-V-2A-TL431/32894346618.html?spm=a2g0s.9042311.0.0.274233edztReMy)|
 | 6 | Short USB Cable for 3G/4G modem | 1 | US $0.52 | [AliExpress](https://ru.aliexpress.com/item/Short-USB-2-0-A-Female-To-A-Male-Extension-Cable-Cord/32735808067.html?spm=a2g0s.9042311.0.0.274233edztReMy)|
 | 7 | Screws and nuts | 1 | US $4.68 | [AliExpress](https://ru.aliexpress.com/item/180-M2-M2-5-M3-spacer/32868329698.html?spm=a2g0s.9042311.0.0.274233edfVDtDB)|
-| 8 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
-| 9 | Junction box | 1 | - | Local shop |
+| 8 | CPU and RAM  heatsinks | 1 | US $1.76 | [AliExpress](https://ru.aliexpress.com/item/30-Pcs-Adhesive-Raspberry-Pi-3-Heatsink-Cooler-Pure-Aluminum-Heat-Sink-Set-Kit-Radiator-For/32736671934.html?spm=a2g0s.9042311.0.0.274233edQOlzLf)|
+| 9 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
+| 10 | Junction box | 1 | - | Local shop |
 ###### Generation 2 - XM H264 IP Camera
 | Pos # | Component | Q-ty  | Est. price | Link to shop |
 | :---: |   :---    | :---: | ---:       | :---:         |
@@ -65,6 +66,7 @@ Hardware part consists of:
 | 5 | Power supply 5V/2A | 1 | US $1.61 | [AliExpress](https://ru.aliexpress.com/item/AC-100-265-V-DC-5-V-2A-TL431/32894346618.html?spm=a2g0s.9042311.0.0.274233edztReMy)|
 | 6 | Short USB Cable for 3G/4G modem | 1 | US $0.52 | [AliExpress](https://ru.aliexpress.com/item/Short-USB-2-0-A-Female-To-A-Male-Extension-Cable-Cord/32735808067.html?spm=a2g0s.9042311.0.0.274233edztReMy)|
 | 7 | Screws and nuts | 1 | US $4.68 | [AliExpress](https://ru.aliexpress.com/item/180-M2-M2-5-M3-spacer/32868329698.html?spm=a2g0s.9042311.0.0.274233edfVDtDB)|
-| 8 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
-| 9 | Junction box | 1 | - | Local shop |
+| 8 | CPU and RAM  heatsinks | 1 | US $1.76 | [AliExpress](https://ru.aliexpress.com/item/30-Pcs-Adhesive-Raspberry-Pi-3-Heatsink-Cooler-Pure-Aluminum-Heat-Sink-Set-Kit-Radiator-For/32736671934.html?spm=a2g0s.9042311.0.0.274233edQOlzLf)|
+| 9 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
+| 10 | Junction box | 1 | - | Local shop |
 ## Building from the scratch
