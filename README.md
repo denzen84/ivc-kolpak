@@ -43,7 +43,7 @@ Hardware part consists of:
 * Power supply 5V/2A (or 12V/1A with DC-DC converter)
 * Box, cables, screws, nuts
 ## Bill of materials
-###### Generation 1 - USB UVC Camera
+###### IVC KOLPAK Gen1 with USB UVC Camera
 | Pos # | Component | Q-ty  | Est. price | Link to shop |
 | :---: |   :---    | :---: | ---:       | :---:         |
 | 1 | Orange Pi Lite | 1 | US $12.00 | [AliExpress](https://ru.aliexpress.com/item/Orange-Pi-Lite-Support-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry/32662738571.html?spm=a2g0s.13010208.99999999.265.7a983c0025QaNK)|
@@ -56,7 +56,7 @@ Hardware part consists of:
 | 8 | CPU and RAM  heatsinks | 1 | US $1.76 | [AliExpress](https://ru.aliexpress.com/item/30-Pcs-Adhesive-Raspberry-Pi-3-Heatsink-Cooler-Pure-Aluminum-Heat-Sink-Set-Kit-Radiator-For/32736671934.html?spm=a2g0s.9042311.0.0.274233edQOlzLf)|
 | 9 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
 | 10 | Junction box | 1 | - | Local shop |
-###### Generation 2 - XM H264 IP Camera
+###### IVC KOLPAK Gen1 with XM H264 IP Camera (not tested yet)
 | Pos # | Component | Q-ty  | Est. price | Link to shop |
 | :---: |   :---    | :---: | ---:       | :---:         |
 | 1 | Orange Pi Zero+ | 1 | US $14.90 | [AliExpress](https://ru.aliexpress.com/store/product/Orange-Pi-Zero-Plus-H5-Chip-Quad-Core-Open-source-Cortex-A53-512MB-development-board-beyond/1553371_32828347476.html?spm=a2g0v.12010612.8148356.4.369979abuQTklx)|
