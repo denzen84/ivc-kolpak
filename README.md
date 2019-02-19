@@ -56,7 +56,7 @@ Hardware part consists of:
 | 8 | CPU and RAM  heatsinks | 1 | US $1.76 | [AliExpress](https://ru.aliexpress.com/item/30-Pcs-Adhesive-Raspberry-Pi-3-Heatsink-Cooler-Pure-Aluminum-Heat-Sink-Set-Kit-Radiator-For/32736671934.html?spm=a2g0s.9042311.0.0.274233edQOlzLf)|
 | 9 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
 | 10 | Junction box | 1 | - | Local shop |
-###### IVC KOLPAK Gen1 with XM H264 IP Camera (not tested yet)
+###### IVC KOLPAK Gen2 with XM H264 IP Camera (not tested yet)
 | Pos # | Component | Q-ty  | Est. price | Link to shop |
 | :---: |   :---    | :---: | ---:       | :---:         |
 | 1 | Orange Pi Zero+ | 1 | US $14.90 | [AliExpress](https://ru.aliexpress.com/store/product/Orange-Pi-Zero-Plus-H5-Chip-Quad-Core-Open-source-Cortex-A53-512MB-development-board-beyond/1553371_32828347476.html?spm=a2g0v.12010612.8148356.4.369979abuQTklx)|
