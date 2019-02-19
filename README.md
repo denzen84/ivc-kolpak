@@ -32,7 +32,6 @@ Using Telegram service providing following advantages, dramatically simplifies t
 * motion ([external link](https://motion-project.github.io/))
 * ffmpeg ([external link](https://ffmpeg.org/))
 * enhanced sender telegram bot ([external link](https://github.com/denzen84/sstgb))
-* Tor (optional) ([external link](https://www.torproject.org/))
 * several bash scrips: system report, archive cleanup, watchdog, on/off camera on trusted WiFi client, etc...
 ## Hardware
 Hardware part consists of:
@@ -79,21 +78,23 @@ Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scri
 5. Install from repository `libjson-c3`: `sudo apt-get install libjson-c3`
 6. Install from repository `usb-modeswitch`: `sudo apt-get install usb-modeswitch`
 7. Extract `ivc-kolpak` package from this repository into `/etc/ivc-kolpak`
-8. (Optional) Install from repository `tor`: `sudo apt-get install tor`
 ###### Step 2. Create Telegram bot
 1. Create your own telegram bot using `@BotFather` bot according to the [official guide](https://core.telegram.org/bots#6-botfather). Get `bot token`. 
 2. Create 3 channels (or groups): Photo, Video and System. Get `id` for each channel (or group) using `@getidsbot`.
 3. Add your new bot to the channels (or groups) as administrator.
 ###### Step 3. Configuring system
-1. __Create ramdisk__
+1. __Configure ramdisk__
      - Add into file `/etc/fstab` following line: `ramdisk /mnt/ramdisk tmpfs rw,size=256M 0 0`
-2. __Create WiFi hotspot__
-     - Use `armbian-config` utility to make WiFi hotspot
+2. __Configure WiFi hotspot__
+     - Use `armbian-config` utility to configure WiFi hotspot
 3. __Configure ImageMagick__
      - In the file `/etc/ImageMagick-6/policy.xml` find line `policy domain="path" rights="none" pattern="@*"/` and comment it like `<!-- policy domain="path" rights="none" pattern="@*"/ -->`
 4. __Configure telegram bot__. 
      - Write `bot token` of your bot into files `.token` in paths `/etc/ivc-kolpak/channels/photo/`, `/etc/ivc-kolpak/channels/video/`, `/etc/ivc-kolpak/channels/system/`
      - Write `id` for each channel (or group) into files `.userid` in the same way as bot token.
-5. __Copy symlinks__
-     - `under construction`
+5. __Make symlinks__
+     - make symlinks for all scripts from `/etc/ivc-kolpak/scripts/` to `/usr/bin/`. Be sure that all scripts have permissions to execute.
+     - make symlinks from `/etc/ivc-kolpak/motion/` to `/usr/bin/`.
+     - make symlink for `/etc/ivc-kolpak/bin/telebot.so.0.5.0` to `/lib/`
+     - make symlink for `/etc/ivc-kolpak/bin/estgb` to `/usr/bin/`. Be sure that `estgb` have permissions to execute.
 6. __DOES ANYBODY WANT TO CREATE INSTALLATION SCRIPT? :)__
