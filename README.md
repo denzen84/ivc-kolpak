@@ -83,6 +83,7 @@ Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scri
 ###### Step 2. Create Telegram bot
 1. Create your own telegram bot using `@BotFather` bot according to the [official guide](https://core.telegram.org/bots#6-botfather). Get `bot token`. 
 2. Create 3 channels (or groups): Photo, Video and System. Get `id` for each channel (or group) using `@getidsbot`.
+3. Add your new bot to the channels (or groups) as administrator.
 ###### Step 3. Configuring system
 1. __Create ramdisk__
      - Add into file `/etc/fstab` following line: `ramdisk /mnt/ramdisk tmpfs rw,size=256M 0 0`
@@ -95,4 +96,4 @@ Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scri
      - Write `id` for each channel (or group) into files `.userid` in the same way as bot token.
 5. __Copy symlinks__
      - `under construction`
-6. __Does anyone want to create installation script?__
+6. __DOES ANYBODY WANT TO CREATE INSTALLATION SCRIPT? :)__
