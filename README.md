@@ -4,8 +4,6 @@ This is template article. More information about the system and source codes to 
 For any questions please ask in Telegram group `@ivckolpak`
 ## Overview
 IVC KOLPAK is DIY smart CCTV system that alerts to Telegram if motion is detected in the camera area. This gives feature to reduce human attention for CCTV system and provides Internet traffic economy. It comprises the principles of simplicity and convenience, and low cost of ownership. It's best for far objects with rare motion events where only available 3G/4G Internet connection.
-## Support
-Telegram group `@ivckolpak` is provided for info and questions
 ## Features
 * CCTV with motion detection and alerts to Telegram
 * Filtered content from CCTV. No need to revise recordings and archive - all information in the smartphone or PC
@@ -98,3 +96,5 @@ Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scri
      - make symlink for `/etc/ivc-kolpak/bin/telebot.so.0.5.0` to `/lib/`
      - make symlink for `/etc/ivc-kolpak/bin/estgb` to `/usr/bin/`. Be sure that `estgb` have permissions to execute.
 6. __DOES ANYBODY WANT TO CREATE INSTALLATION SCRIPT? :)__
+## Support
+Telegram group `@ivckolpak` is provided for info and questions
