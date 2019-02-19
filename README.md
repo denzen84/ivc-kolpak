@@ -1,11 +1,11 @@
 # IVC KOLPAK - smart CCTV system powered with Telegram
 ## WARNING! REPOSITORY IS UNDER CONSTRUTION
 This is template article. More information about the system and source codes to build from the scratch will be soon.
-For any questions please ask in Telegram channel `@ivckolpak`
+For any questions please ask in Telegram group `@ivckolpak`
 ## Overview
 IVC KOLPAK is DIY smart CCTV system that alerts to Telegram if motion is detected in the camera area. This gives feature to reduce human attention for CCTV system and provides Internet traffic economy. It comprises the principles of simplicity and convenience, and low cost of ownership. It's best for far objects with rare motion events where only available 3G/4G Internet connection.
 ## Support
-Telegram channel `@ivckolpak` is provided for info and questions
+Telegram group `@ivckolpak` is provided for info and questions
 ## Features
 * CCTV with motion detection and alerts to Telegram
 * Filtered content from CCTV. No need to revise recordings and archive - all information in the smartphone or PC
@@ -69,6 +69,8 @@ Hardware part consists of:
 | 8 | CPU and RAM  heatsinks | 1 | US $1.76 | [AliExpress](https://ru.aliexpress.com/item/30-Pcs-Adhesive-Raspberry-Pi-3-Heatsink-Cooler-Pure-Aluminum-Heat-Sink-Set-Kit-Radiator-For/32736671934.html?spm=a2g0s.9042311.0.0.274233edQOlzLf)|
 | 9 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
 | 10 | Junction box | 1 | - | Local shop |
+## Pre-installed images
+Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scripts) are available for `Orange Pi Lite` (with H3 CPU) both for mainline kernel (Debian9) and experimental image with legacy kernel (Ubuntu Xenial) for cedrus264 test purposes. Ask for pre-installed images in Telegram group `@ivckolpak`.
 ## Building from the scratch
 ###### Step 1. Install OS and software
 1. Download, burn, install Armbian according to [installation guide for Armbian](https://docs.armbian.com/User-Guide_Getting-Started/)
