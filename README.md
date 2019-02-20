@@ -105,7 +105,7 @@ Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scri
 * EN [IMPLEMENTATION OF A SMART SAFETY AND SECURITY
 DEVICE USING RASPBERRY PI, TELEGRAM BOT, PROTA OS
 AND MANYTHING WEB SERVICE](http://www.ijcea.com/wp-content/uploads/2018/03/27-Vinit-Jain.pdf)
-* [Smart Surveillance System using Background
+* EN [Smart Surveillance System using Background
 Subtraction Technique in IoT Application](http://thesai.org/Downloads/Volume9No12/Paper_18-Smart_Surveillance_System_using_Background.pdf)
 * RU [CCTV на коленке с уведомлением в Telegram](https://blog.sgalkin.info/2018/02/06/cctv-telegram/)
 * RU [Телеграм-бот для домашнего видео-наблюдения из подручных материалов](https://habr.com/ru/post/341678/)
