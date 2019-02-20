@@ -96,5 +96,11 @@ Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scri
      - make symlink for `/etc/ivc-kolpak/bin/telebot.so.0.5.0` to `/lib/`
      - make symlink for `/etc/ivc-kolpak/bin/estgb` to `/usr/bin/`. Be sure that `estgb` have permissions to execute.
 6. __DOES ANYBODY WANT TO CREATE INSTALLATION SCRIPT? :)__
+## Similar or related projects
+* EN [Running a CCTV Telegram Bot on your Pi](https://heejune.me/2016/07/20/running-a-cctv-telegram-bot-on-your-pi/)
+* EN [home surveillance monitored via telegram](http://ginolhac.github.io/posts/diy-raspberry-monitored-via-telegram/)
+* EN [DIY real-time security camera with a Raspberry Pi & Telegram for $85 / Rs. 3000](http://shaanobee.blogspot.com/2015/10/diy-real-time-security-camera-with.html)
+* RU [CCTV на коленке с уведомлением в Telegram](https://blog.sgalkin.info/2018/02/06/cctv-telegram/)
+* RU [Телеграм-бот для домашнего видео-наблюдения из подручных материалов](https://habr.com/ru/post/341678/)
 ## Support
 Telegram group `@ivckolpak` is provided for info and questions
