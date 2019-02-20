@@ -16,6 +16,7 @@ IVC KOLPAK is DIY smart CCTV system that alerts to Telegram if motion is detecte
 * Using _motion 4.2+_ feature _movie_passtrough_ allows to convert from mpeg to h264 videos direct from camera's stream. In case of use h264-camera no recompression needed.
 * Ramdisk improves SD-card lifecycle
 * Photos can be send as originals or as media groups.
+* _estgb_ and _telebot_ library written in C. It works faster and consumpts less memory. 
 * _estgb_ can process escape sequences to insert emoji in the text.
 * _telebot_ library linked dynamically with _estgb_. Multiple instances of _estgb_ used less RAM.
 * Expremental use of cedrus264 codec for hardware accelerated video encoding (with legacy kernel only).
