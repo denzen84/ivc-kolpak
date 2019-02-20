@@ -101,6 +101,7 @@ Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scri
 * EN [Running a CCTV Telegram Bot on your Pi](https://heejune.me/2016/07/20/running-a-cctv-telegram-bot-on-your-pi/)
 * EN [home surveillance monitored via telegram](http://ginolhac.github.io/posts/diy-raspberry-monitored-via-telegram/)
 * EN [DIY real-time security camera with a Raspberry Pi & Telegram for $85 / Rs. 3000](http://shaanobee.blogspot.com/2015/10/diy-real-time-security-camera-with.html)
+* EN [Development of Canny Home security system using Telegram application](http://www.ijritcc.org/download/conferences/NC-RISE_17/Track_2_(ENTC)/1506685325_29-09-2017.pdf)
 * RU [CCTV на коленке с уведомлением в Telegram](https://blog.sgalkin.info/2018/02/06/cctv-telegram/)
 * RU [Телеграм-бот для домашнего видео-наблюдения из подручных материалов](https://habr.com/ru/post/341678/)
 ## Support
