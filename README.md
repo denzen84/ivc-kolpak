@@ -107,6 +107,8 @@ DEVICE USING RASPBERRY PI, TELEGRAM BOT, PROTA OS
 AND MANYTHING WEB SERVICE](http://www.ijcea.com/wp-content/uploads/2018/03/27-Vinit-Jain.pdf)
 * EN [Smart Surveillance System using Background
 Subtraction Technique in IoT Application](http://thesai.org/Downloads/Volume9No12/Paper_18-Smart_Surveillance_System_using_Background.pdf)
+* EN [Motion detection Telegram integrated](https://github.com/ttan/motion-detection-telegram)
+* EN [This is telegram bot for posting jpg images from webcam with motion detection to telegram](https://github.com/sergeygalkin/cctv)
 * EN [Telegram CCTV - turns your old android phone into a CCTV Camera using Telegram bot](https://www.reddit.com/r/TelegramBots/comments/936uo4/telegram_cctv_turns_your_old_android_phone_into_a/)
 * RU [CCTV на коленке с уведомлением в Telegram](https://blog.sgalkin.info/2018/02/06/cctv-telegram/)
 * RU [Телеграм-бот для домашнего видео-наблюдения из подручных материалов](https://habr.com/ru/post/341678/)
