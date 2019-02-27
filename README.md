@@ -1,7 +1,6 @@
 # IVC KOLPAK - smart CCTV system powered with Telegram
 ## WARNING! REPOSITORY IS UNDER CONSTRUTION
-This is template article. More information about the system and source codes to build from the scratch will be soon.
-For any questions please ask in Telegram group `@ivckolpak`
+This is template article. For any questions please ask in Telegram group `@ivckolpak`
 ## Overview
 IVC KOLPAK is DIY smart CCTV system that alerts to Telegram if motion is detected in the camera area. This gives feature to reduce human attention for CCTV system and provides Internet traffic economy. It comprises the principles of simplicity and convenience, and low cost of ownership. It's best for far objects with rare motion events where only available 3G/4G Internet connection.
 ## Features
@@ -31,12 +30,12 @@ Using Telegram service providing following advantages, dramatically simplifies t
 * enhanced sender telegram bot ([external link](https://github.com/denzen84/sstgb))
 * several bash scrips: system report, archive cleanup, watchdog, on/off camera on trusted WiFi client, etc...
 ## Hardware
-Hardware part consists of:
+Hardware part includes:
 * Orange Pi board
-* UVC USB camera (or any IPCam)
+* UVC USB camera (or any IPCam with RTSP)
 * SD Card
 * High gain WiFi antenna
-* Power supply 5V/2A (or 12V/1A with DC-DC converter)
+* Power supply 5V/2A (or 12V/1A with UBEC or other DC-DC converter)
 * Box, cables, screws, nuts
 ## Bill of materials
 ###### IVC KOLPAK Gen1 with USB UVC Camera
@@ -59,12 +58,13 @@ Hardware part consists of:
 | 2 | SD card 32G | 1 | US $4.99 | [AliExpress](https://ru.aliexpress.com/item/Memory-card-Micro-SD-memory-card-64GB-32GB-16GB-8GB-100-Genuine-class10-pass-h2test-TF/32461984660.html?spm=a2g0s.9042311.0.0.274233edu7irlG)|
 | 3 | XM H264 IP Camera | 1 | US $18.47 | [AliExpress](https://ru.aliexpress.com/store/product/AHWVE-DIY-1080P-2MP-IP-Camera-module-Board-with-IRCUT-RJ45-Cable-ONVIF-H264-Mobile-APP/700202_32855343611.html?spm=a2g0v.12010608.0.0.5f582df8Dd9xsx)|
 | 4 | WiFi antenna with pigtail | 1 | US $4.84 | [AliExpress](https://ru.aliexpress.com/item/WIFI-Antenna-2-4GHz-10dbi-with-RP-SMA-male-connector-for-wireless-router-IPX-to-RP/32773275868.html?spm=a2g0s.9042311.0.0.274233edkiRliO)|
-| 5 | Power supply 5V/2A | 1 | US $1.61 | [AliExpress](https://ru.aliexpress.com/item/AC-100-265-V-DC-5-V-2A-TL431/32894346618.html?spm=a2g0s.9042311.0.0.274233edztReMy)|
-| 6 | Short USB Cable for 3G/4G modem | 1 | US $0.52 | [AliExpress](https://ru.aliexpress.com/item/Short-USB-2-0-A-Female-To-A-Male-Extension-Cable-Cord/32735808067.html?spm=a2g0s.9042311.0.0.274233edztReMy)|
-| 7 | Screws and nuts | 1 | US $4.68 | [AliExpress](https://ru.aliexpress.com/item/180-M2-M2-5-M3-spacer/32868329698.html?spm=a2g0s.9042311.0.0.274233edfVDtDB)|
-| 8 | CPU and RAM  heatsinks | 1 | US $1.76 | [AliExpress](https://ru.aliexpress.com/item/30-Pcs-Adhesive-Raspberry-Pi-3-Heatsink-Cooler-Pure-Aluminum-Heat-Sink-Set-Kit-Radiator-For/32736671934.html?spm=a2g0s.9042311.0.0.274233edQOlzLf)|
-| 9 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
-| 10 | Junction box | 1 | - | Local shop |
+| 5 | Power supply 12V/1.5A | 1 | US $1.61 | [AliExpress](https://ru.aliexpress.com/store/product/AC-100-265V-to-DC12V-1-5A-Switching-Power-Supply-Module-TL431-For-Replace-Repair/3216069_32906291377.html?spm=a2g0v.12010612.8148356.40.74105ee2DdvIKh)|
+| 6 | UBEC Hobbywing 6-36V to 5V/3A | 1 | US $1.98 | [AliExpress](https://ru.aliexpress.com/item/5-6-HOBBYWING-RC-UBEC-3A-Max-5A/32914883336.html?spm=a2g0s.9042311.0.0.274233edEupGGD)|
+| 7 | Short USB Cable for 3G/4G modem | 1 | US $0.52 | [AliExpress](https://ru.aliexpress.com/item/Short-USB-2-0-A-Female-To-A-Male-Extension-Cable-Cord/32735808067.html?spm=a2g0s.9042311.0.0.274233edztReMy)|
+| 8 | Screws and nuts | 1 | US $4.68 | [AliExpress](https://ru.aliexpress.com/item/180-M2-M2-5-M3-spacer/32868329698.html?spm=a2g0s.9042311.0.0.274233edfVDtDB)|
+| 9 | CPU and RAM  heatsinks | 1 | US $1.76 | [AliExpress](https://ru.aliexpress.com/item/30-Pcs-Adhesive-Raspberry-Pi-3-Heatsink-Cooler-Pure-Aluminum-Heat-Sink-Set-Kit-Radiator-For/32736671934.html?spm=a2g0s.9042311.0.0.274233edQOlzLf)|
+| 10 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
+| 11 | Junction box | 1 | - | Local shop |
 ## Pre-installed images
 Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scripts) are available for `Orange Pi Lite` (with H3 CPU) both for mainline kernel (Debian9) and experimental image with legacy kernel (Ubuntu Xenial) for cedrus264 test purposes. Ask for pre-installed images in Telegram group `@ivckolpak`.
 ## Building from the scratch
