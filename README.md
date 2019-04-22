@@ -66,7 +66,7 @@ Hardware part includes:
 | 10 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
 | 11 | Junction box | 1 | - | Local shop |
 ## Pre-installed images
-Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scripts) are available for `Orange Pi Lite` (with H3 CPU) both for mainline kernel (Debian9) and experimental image with legacy kernel (Ubuntu Xenial) for cedrus264 test purposes. Ask for pre-installed images in Telegram group `@ivckolpak`.
+Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scripts) are available for `Orange Pi Lite` (with H3 CPU) and `Orange Pi Zero+` for mainline kernel (Debian 9 Stretch). Also available experimental image with legacy kernel (Ubuntu Xenial) for `Orange Pi Lite` (with H3 CPU) to test hw-accelerated x264 codec (cedrus264). Ask for pre-installed images in Telegram group `@ivckolpak`.
 ## Building from the scratch
 ###### Step 1. Install OS and software
 1. Download, burn, install Armbian according to [installation guide for Armbian](https://docs.armbian.com/User-Guide_Getting-Started/)
