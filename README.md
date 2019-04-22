@@ -3,6 +3,8 @@
 This is template article. For any questions please ask in Telegram group `@ivckolpak`
 ## Overview
 IVC KOLPAK is DIY smart CCTV system that alerts to Telegram if motion is detected in the camera area. This gives feature to reduce human attention for CCTV system and provides Internet traffic economy. It comprises the principles of simplicity and convenience, and low cost of ownership. It's best for far objects with rare motion events where only available 3G/4G Internet connection.
+
+![ivc-kolpak-gen2](http://flangeneer.sknt.ru/ivc-kolpak/img/ivc-kolpak-gen2-assembled.jpg)
 ## Features
 * CCTV with motion detection and alerts to Telegram
 * Filtered content from CCTV. No need to revise recordings and archive - all information in the smartphone or PC
@@ -66,7 +68,6 @@ Hardware part includes:
 | 10 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
 | 11 | Junction box | 1 | - | Local shop |
 
-![ivc-kolpak-gen2](http://flangeneer.sknt.ru/ivc-kolpak/img/ivc-kolpak-gen2-assembled.jpg)
 
 ## Pre-installed images
 Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scripts) are available for `Orange Pi Lite` (with H3 CPU) and `Orange Pi Zero+` for mainline kernel (Debian 9 Stretch). Also available experimental image with legacy kernel (Ubuntu Xenial) for `Orange Pi Lite` (with H3 CPU) to test hw-accelerated x264 codec (cedrus264). Ask for pre-installed images in Telegram group `@ivckolpak`.
