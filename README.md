@@ -65,6 +65,9 @@ Hardware part includes:
 | 9 | CPU and RAM  heatsinks | 1 | US $1.76 | [AliExpress](https://ru.aliexpress.com/item/30-Pcs-Adhesive-Raspberry-Pi-3-Heatsink-Cooler-Pure-Aluminum-Heat-Sink-Set-Kit-Radiator-For/32736671934.html?spm=a2g0s.9042311.0.0.274233edQOlzLf)|
 | 10 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
 | 11 | Junction box | 1 | - | Local shop |
+
+![ivc-kolpak-gen2](http://flangeneer.sknt.ru/ivc-kolpak/img/ivc-kolpak-gen2-assembled.jpg)
+
 ## Pre-installed images
 Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scripts) are available for `Orange Pi Lite` (with H3 CPU) and `Orange Pi Zero+` for mainline kernel (Debian 9 Stretch). Also available experimental image with legacy kernel (Ubuntu Xenial) for `Orange Pi Lite` (with H3 CPU) to test hw-accelerated x264 codec (cedrus264). Ask for pre-installed images in Telegram group `@ivckolpak`.
 ## Building from the scratch
