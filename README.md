@@ -68,9 +68,11 @@ Hardware part includes:
 | 6 | UBEC Hobbywing 6-36V to 5V/3A | 1 | US $1.98 | [AliExpress](https://ru.aliexpress.com/item/5-6-HOBBYWING-RC-UBEC-3A-Max-5A/32914883336.html?spm=a2g0s.9042311.0.0.274233edEupGGD)|
 | 7 | Short USB Cable for 3G/4G modem | 1 | US $0.52 | [AliExpress](https://ru.aliexpress.com/item/Short-USB-2-0-A-Female-To-A-Male-Extension-Cable-Cord/32735808067.html?spm=a2g0s.9042311.0.0.274233edztReMy)|
 | 8 | Screws and nuts | 1 | US $4.68 | [AliExpress](https://ru.aliexpress.com/item/180-M2-M2-5-M3-spacer/32868329698.html?spm=a2g0s.9042311.0.0.274233edfVDtDB)|
-| 9 | CPU and RAM  heatsinks | 1 | US $1.76 | [AliExpress](https://ru.aliexpress.com/item/30-Pcs-Adhesive-Raspberry-Pi-3-Heatsink-Cooler-Pure-Aluminum-Heat-Sink-Set-Kit-Radiator-For/32736671934.html?spm=a2g0s.9042311.0.0.274233edQOlzLf)|
-| 10 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
-| 11 | Junction box | 1 | - | Local shop |
+| 9 | Cables | 1 | US $1.21 | [AliExpress](https://ru.aliexpress.com/item/-/32961480457.html?spm=a2g0s.9042311.0.0.274233edK113uj)|
+| 10 | USB socket | 1 | US $0.80 | [AliExpress](https://www.aliexpress.com/item/5-pcs-USB-2-0-FEMALE-SOCKET-TO-dip-4P-4PIN-Adapter-CONNECTOR-TO-DIP-2/32950258034.html?spm=a2g0v.10010108.1000001.11.cd6d1074nkXSQs)|
+| 11 | CPU and RAM  heatsinks | 1 | US $1.76 | [AliExpress](https://ru.aliexpress.com/item/30-Pcs-Adhesive-Raspberry-Pi-3-Heatsink-Cooler-Pure-Aluminum-Heat-Sink-Set-Kit-Radiator-For/32736671934.html?spm=a2g0s.9042311.0.0.274233edQOlzLf)|
+| 12 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
+| 13 | Junction box | 1 | - | Local shop |
 
 ![ivc-kolpak-gen2-inside](http://flangeneer.sknt.ru/ivc-kolpak/img/ivc-kolpak-gen2-open-case2.jpg)
 ## Ready-to-use images
