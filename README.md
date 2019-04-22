@@ -5,8 +5,6 @@ This is template article. For any questions please ask in Telegram group `@ivcko
 IVC KOLPAK is DIY smart CCTV system that alerts to Telegram if motion is detected in the camera area. This gives feature to reduce human attention for CCTV system and provides Internet traffic economy. It comprises the principles of simplicity and convenience, and low cost of ownership. It's best for far objects with rare motion events where only available 3G/4G Internet connection.
 
 ![ivc-kolpak-gen2_assembled](http://flangeneer.sknt.ru/ivc-kolpak/img/ivc-kolpak-gen2-assembled.jpg)
-
-![ivc-kolpak-gen2_open case](http://flangeneer.sknt.ru/ivc-kolpak/img/ivc-kolpak-gen2-open-case1.jpg)
 ## Features
 * CCTV with motion detection and alerts to Telegram
 * Filtered content from CCTV. No need to revise recordings and archive - all information in the smartphone or PC
@@ -41,6 +39,8 @@ Hardware part includes:
 * High gain WiFi antenna
 * Power supply 5V/2A (or 12V/1A with UBEC or other DC-DC converter)
 * Box, cables, screws, nuts
+![ivc-kolpak-gen2_open case](http://flangeneer.sknt.ru/ivc-kolpak/img/ivc-kolpak-gen2-open-case1.jpg)
+
 ## Bill of materials
 ###### IVC KOLPAK Generation 1 "Leningrad" with USB UVC Camera
 | Pos # | Component | Q-ty  | Est. price | Link to shop |
@@ -55,8 +55,8 @@ Hardware part includes:
 | 8 | CPU and RAM  heatsinks | 1 | US $1.76 | [AliExpress](https://ru.aliexpress.com/item/30-Pcs-Adhesive-Raspberry-Pi-3-Heatsink-Cooler-Pure-Aluminum-Heat-Sink-Set-Kit-Radiator-For/32736671934.html?spm=a2g0s.9042311.0.0.274233edQOlzLf)|
 | 9 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
 | 10 | Junction box | 1 | - | Local shop |
-![ivc-kolpak-gen1-inside](http://flangeneer.sknt.ru/ivc-kolpak/img/ivc-kolpak-gen1-open-case.jpg)
 
+![ivc-kolpak-gen1-inside](http://flangeneer.sknt.ru/ivc-kolpak/img/ivc-kolpak-gen1-open-case.jpg)
 ###### IVC KOLPAK Generation 2 "Minsk" with XM H264 IP Camera
 | Pos # | Component | Q-ty  | Est. price | Link to shop |
 | :---: |   :---    | :---: | ---:       | :---:         |
