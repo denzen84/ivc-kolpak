@@ -34,7 +34,7 @@ Using Telegram service providing following advantages, dramatically simplifies t
 ## Ready-to-use images
 Ready-to-use images are available for:
 * `Orange Pi Lite` (with H3 CPU) for mainline kernel (Debian 9 Stretch). Also available experimental image with legacy kernel (Ubuntu Xenial) for test purposes of hw-accelerated x264 codec (cedrus264);
-* `Orange Pi Zero+` for mainline kernel (Debian 9 Stretch).  
+* `Orange Pi Zero Plus` (with H5 CPU) for mainline kernel (Debian 9 Stretch).  
 Ask for mentioned images in Telegram group `@ivckolpak`.
 ## Hardware
 Hardware part includes:
