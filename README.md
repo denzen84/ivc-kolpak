@@ -43,7 +43,7 @@ Hardware part includes:
 
 ## Bill of materials
 ###### IVC KOLPAK Generation 1 "Leningrad" with USB UVC Camera
-| Pos # | Component | Q-ty  | Est. price | Link to shop |
+| Item # | Component | Q-ty  | Est. price | Link to shop |
 | :---: |   :---    | :---: | ---:       | :---:         |
 | 1 | Orange Pi Lite | 1 | US $12.00 | [AliExpress](https://ru.aliexpress.com/item/Orange-Pi-Lite-Support-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry/32662738571.html?spm=a2g0s.13010208.99999999.265.7a983c0025QaNK)|
 | 2 | SD card 32G | 1 | US $4.99 | [AliExpress](https://ru.aliexpress.com/item/Memory-card-Micro-SD-memory-card-64GB-32GB-16GB-8GB-100-Genuine-class10-pass-h2test-TF/32461984660.html?spm=a2g0s.9042311.0.0.274233edu7irlG)|
@@ -58,7 +58,7 @@ Hardware part includes:
 
 ![ivc-kolpak-gen1-inside](http://flangeneer.sknt.ru/ivc-kolpak/img/ivc-kolpak-gen1-open-case.jpg)
 ###### IVC KOLPAK Generation 2 "Minsk" with XM H264 IP Camera
-| Pos # | Component | Q-ty  | Est. price | Link to shop |
+| Item # | Component | Q-ty  | Est. price | Link to shop |
 | :---: |   :---    | :---: | ---:       | :---:         |
 | 1 | Orange Pi Zero+ | 1 | US $14.90 | [AliExpress](https://ru.aliexpress.com/store/product/Orange-Pi-Zero-Plus-H5-Chip-Quad-Core-Open-source-Cortex-A53-512MB-development-board-beyond/1553371_32828347476.html?spm=a2g0v.12010612.8148356.4.369979abuQTklx)|
 | 2 | SD card 32G | 1 | US $4.99 | [AliExpress](https://ru.aliexpress.com/item/Memory-card-Micro-SD-memory-card-64GB-32GB-16GB-8GB-100-Genuine-class10-pass-h2test-TF/32461984660.html?spm=a2g0s.9042311.0.0.274233edu7irlG)|
