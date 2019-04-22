@@ -68,7 +68,9 @@ Hardware part includes:
 | 10 | 3G/4G modem (any Huawei with HiLink firmware) | 1 | - | Local shop |
 | 11 | Junction box | 1 | - | Local shop |
 
+![ivc-kolpak-gen2](ivc-kolpak-gen2-open-case1.jpg)
 
+![ivc-kolpak-gen2](ivc-kolpak-gen2-open-case2.jpg)
 ## Pre-installed images
 Pre-installed images (Armbian, motion, ImageMagick, estgb, WiFi Hotspot and scripts) are available for `Orange Pi Lite` (with H3 CPU) and `Orange Pi Zero+` for mainline kernel (Debian 9 Stretch). Also available experimental image with legacy kernel (Ubuntu Xenial) for `Orange Pi Lite` (with H3 CPU) to test hw-accelerated x264 codec (cedrus264). Ask for pre-installed images in Telegram group `@ivckolpak`.
 ## Building from the scratch
