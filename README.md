@@ -31,6 +31,11 @@ Using Telegram service providing following advantages, dramatically simplifies t
 * ffmpeg ([external link](https://ffmpeg.org/))
 * enhanced sender telegram bot ([external link](https://github.com/denzen84/sstgb))
 * several bash scrips: system report, archive cleanup, watchdog, on/off camera on trusted WiFi client, etc...
+## Ready-to-use images
+Ready-to-use images are available for:
+* `Orange Pi Lite` (with H3 CPU) for mainline kernel (Debian 9 Stretch). Also available experimental image with legacy kernel (Ubuntu Xenial) for test purposes of hw-accelerated x264 codec (cedrus264);
+* `Orange Pi Zero+` for mainline kernel (Debian 9 Stretch).  
+Ask for mentioned images in Telegram group `@ivckolpak`.
 ## Hardware
 Hardware part includes:
 * Orange Pi board
@@ -75,11 +80,6 @@ Hardware part includes:
 | 13 | Junction box | 1 | - | Local shop |
 
 ![ivc-kolpak-gen2-inside](http://flangeneer.sknt.ru/ivc-kolpak/img/ivc-kolpak-gen2-open-case2.jpg)
-## Ready-to-use images
-Ready-to-use images are available for:
-* `Orange Pi Lite` (with H3 CPU) for mainline kernel (Debian 9 Stretch). Also available experimental image with legacy kernel (Ubuntu Xenial) for test purposes of hw-accelerated x264 codec (cedrus264);
-* `Orange Pi Zero+` for mainline kernel (Debian 9 Stretch).  
-Ask for mentioned images in Telegram group `@ivckolpak`.
 ## Building from the scratch
 ###### Step 1. Install OS and software
 1. Download, burn, install Armbian according to [installation guide for Armbian](https://docs.armbian.com/User-Guide_Getting-Started/)
