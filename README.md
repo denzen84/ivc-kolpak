@@ -1,8 +1,8 @@
 # IVC KOLPAK - smart CCTV system powered with Telegram
-## WARNING! REPOSITORY IS UNDER CONSTRUTION
-This is template article. For any questions please ask in Telegram group `@ivckolpak`
+## WARNING! REPOSITORY IS UNDER CONSTRUCTION
+This is a template article. For any questions please ask in Telegram group `@ivckolpak`
 ## Overview
-IVC KOLPAK is DIY smart CCTV system that alerts to Telegram if motion is detected in the camera area. This gives feature to reduce human attention for CCTV system and provides Internet traffic economy. It comprises the principles of simplicity and convenience, and low cost of ownership. It's best for far objects with rare motion events where only available 3G/4G Internet connection.
+IVC KOLPAK is DIY smart CCTV system that alerts to Telegram if motion is detected in the camera area. This gives features to reduce human attention for CCTV systems and provides an Internet traffic economy. It comprises the principles of simplicity and convenience, and low cost of ownership. It's best for far objects with rare motion events where only available 3G/4G Internet connection.
 
 ![ivc-kolpak-gen2_assembled](http://flangeneer.sknt.ru/ivc-kolpak/img/ivc-kolpak-gen2-assembled.jpg)
 ## Features
@@ -10,18 +10,18 @@ IVC KOLPAK is DIY smart CCTV system that alerts to Telegram if motion is detecte
 * Filtered content from CCTV. No need to revise recordings and archive - all information in the smartphone or PC
 * Text, photo and video (animations) with motion object into Telegram chat, group or channel available 24/7
 * WiFi hotspot service (used internal 3G/4G modem for Internet access)
-* Automatic enable/disable CCTV when trusted device connected to WiFi hospot
+* Automatic enable/disable CCTV when a trusted device connected to WiFi hospot
 * Periodical system reports about uptime, system life parameters, connected devices and other
-* 2 week (or more) archive on SD card for archive purposes
+* 2 weeks (or more) archive on SD card for archive purposes
 ###### Technical features
-* Using _motion 4.2+_ feature _movie_passtrough_ allows to convert from mpeg to h264 videos direct from camera's stream. In case of use h264-camera no recompression needed.
+* Using _motion 4.2+_ feature _movie_passtrough_ allows converting from MPEG to h264 videos direct from the camera's stream. In case of use h264-camera, no recompression is needed.
 * Ramdisk improves SD-card lifecycle
-* Photos can be send as originals or as media groups.
-* Telegram bot core (_estgb_ and _telebot_ library) written in C. It works faster and consumpts less memory.
-* Expremental use of cedrus264 codec for hardware accelerated video encoding (with legacy kernel only).
+* Photos can be sent as originals or as media groups.
+* Telegram bot core (_estgb_ and _telebot_ library) written in C. It works faster and consumes less memory.
+* Experimental use of cedrus264 codec for hardware-accelerated video encoding (with legacy kernel only).
 ## Why Telegram?
-Using Telegram service providing following advantages, dramatically simplifies the device and reduces costs:
-* Cloud storage for photos and videos in the chats, groups or channels. All information from the device will be kept in the Telegram's cloud. No need to make your own infrastructure or use other paid service.
+Using Telegram service providing the following advantage dramatically simplifies the device and reduces costs:
+* Cloud storage for photos and videos in the chats, groups, or channels. All information from the device will be kept in the Telegram's cloud. No need to make your own infrastructure or use other paid services.
 * Access to Telegram from any device and platform even at the same time
 * Simply to share photo and videos from the camera
 * Telegram has an open API and protocol free for everyone (hey, Whatsapp and Viber!)
@@ -33,16 +33,16 @@ Using Telegram service providing following advantages, dramatically simplifies t
 * several bash scrips: system report, archive cleanup, watchdog, on/off camera on trusted WiFi client, etc...
 ## Ready-to-use images
 Ready-to-use images are available for:
-* `Orange Pi Lite` (with H3 CPU) for mainline kernel (Debian 9 Stretch). Also available experimental image with legacy kernel (Ubuntu Xenial) for test purposes of hw-accelerated x264 codec (cedrus264);
-* `Orange Pi Zero Plus` (with H5 CPU) for mainline kernel (Debian 9 Stretch).  
-Ask for mentioned images in Telegram group `@ivckolpak`.
+* `Orange Pi Lite` (with H3 CPU) for the mainline kernel (Debian 9 Stretch). Also available experimental image with the legacy kernel (Ubuntu Xenial) for test purposes of hw-accelerated x264 codec (cedrus264);
+* `Orange Pi Zero Plus` (with H5 CPU) for the mainline kernel (Debian 9 Stretch).  
+Ask for the mentioned images in the Telegram group `@ivckolpak`.
 ## Hardware
 Hardware part includes:
 * Orange Pi board
 * UVC USB camera (or any IPCam with RTSP)
 * SD Card
 * High gain WiFi antenna
-* Power supply 5V/2A (or 12V/1A with UBEC or other DC-DC converter)
+* Power supply 5V/2A (or 12V/1A with UBEC or another DC-DC converter)
 * Box, cables, screws, nuts
 ![ivc-kolpak-gen2_open case](http://flangeneer.sknt.ru/ivc-kolpak/img/ivc-kolpak-gen2-open-case1.jpg)
 
@@ -90,8 +90,8 @@ Hardware part includes:
 7. Extract `ivc-kolpak` package from this repository into `/etc/ivc-kolpak`
 ###### Step 2. Create Telegram bot
 1. Create your own telegram bot using `@BotFather` bot according to the [official guide](https://core.telegram.org/bots#6-botfather). Get `bot token`. 
-2. Create 3 channels (or groups): Photo, Video and System. Get `id` for each channel (or group) using `@getidsbot`.
-3. Add your new bot to the channels (or groups) as administrator.
+2. Create 3 channels (or groups): Photo, Video, and System. Get `id` for each channel (or group) using `@getidsbot`.
+3. Add your new bot to the channels (or groups) as an administrator.
 ###### Step 3. Configuring system
 1. __Configure ramdisk__
      - Add into file `/etc/fstab` following line: `ramdisk /mnt/ramdisk tmpfs rw,size=256M 0 0`
@@ -103,7 +103,7 @@ Hardware part includes:
      - Write `bot token` of your bot into files `.token` in paths `/etc/ivc-kolpak/channels/photo/`, `/etc/ivc-kolpak/channels/video/`, `/etc/ivc-kolpak/channels/system/`
      - Write `id` for each channel (or group) into files `.userid` in the same way as bot token.
 5. __Make symlinks__
-     - make symlinks for all scripts from `/etc/ivc-kolpak/scripts/` to `/usr/bin/`. Be sure that all scripts have permissions to execute.
+     - make symlinks for all scripts from `/etc/ivc-kolpak/scripts/` to `/usr/bin/`. Be sure that all scripts have permission to execute.
      - make symlinks from `/etc/ivc-kolpak/motion/` to `/usr/bin/`.
      - make symlink for `/etc/ivc-kolpak/bin/telebot.so.0.5.0` to `/lib/`
      - make symlink for `/etc/ivc-kolpak/bin/estgb` to `/usr/bin/`. Be sure that `estgb` have permissions to execute.
